@@ -7,18 +7,18 @@ Goal: Create postgress database table with State data at the block level using t
 
 The ACS_data file uses the census.gov API (and the requests package) to pull data for the state of Maine at the block group level. There were thirteen variables pulled:
 
-B01003_001E: total population 
-B02001_002E: total population: White Alone
-B19101_001E: family income in the past 12 months (in 2019 inflation adjusted dollars) 
-B08134_008E: travel time to work: 35 to 44 minutes
-B08134_009E: travel time to work: 45 to 60 minutes
-B08134_010E: travel time to work: 60 or more minutes
-B08301_002E: means of transportation: Car, truck, or van
-B19049_001E: median household income in the past 12 months (in 2019 inflation adjusted dollars)
-state
-county
-tract
-block group
+* B01003_001E: total population 
+* B02001_002E: total population: White Alone
+* B19101_001E: family income in the past 12 months (in 2019 inflation adjusted dollars) 
+* B08134_008E: travel time to work: 35 to 44 minutes
+* B08134_009E: travel time to work: 45 to 60 minutes
+* B08134_010E: travel time to work: 60 or more minutes
+* B08301_002E: means of transportation: Car, truck, or van
+* B19049_001E: median household income in the past 12 months (in 2019 inflation adjusted dollars)
+* state
+* county
+* tract
+* block group
 
 
 The state of Maine was chosen because it is the state where I grew up, it's where I call home. Total population was chosen as a general variable that always tends to be important and highlighted. Variables related to income (B19101_001E and B19049_001E) were selected because at the block level it can often be an indicator for the number of resources available. Additionally, certain counties tend to suffer with poverty. Thus, exploring income at a more granular level would be interesting. Lastly, the variables related to transportation are simply for interest purposes. Being that most of Maine is pretty rural, I wondered how common it is to travel for more than 35 minutes (essentially cross town/city lines). Lastly, the mode of transportation was intriguing. I would hypothesize that this would be the most common means of transportation due to the limited public transportation. 
