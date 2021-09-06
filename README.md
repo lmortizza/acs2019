@@ -5,7 +5,7 @@ Goal: Create postgress database table with State data at the block level using t
 
 ## Downloading ACS data
 
-The ACS_data file uses the census.gov API (and the requests package) to pull data for the state of Maine at the block group level. There were thirteen variables pulled:
+The ACS_data file uses the census.gov API (and the requests package) to pull data for the state of Maine at the block group level. There was a census package available that would have made this process easier, but I opted for this process to practice using a website's API directly (the only other time I had done this was in my intermediate python course last year). By using this method, I pulled the data for the following variables:
 
 * B01003_001E: total population 
 * B02001_002E: total population: White Alone
